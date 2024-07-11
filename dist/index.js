@@ -1,4 +1,5 @@
 "use strict";
-const a = 34;
+let a = 25;
+a = "mohit";
 console.log(a);
-alert(a);
+let naam = "mohit";

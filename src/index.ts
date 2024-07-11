@@ -1,5 +1,9 @@
-const a = 34
+let a = 25
+
+a = "mohit"
+
 console.log(a);
 
+let naam = "mohit"
 
-alert(a);
+naam = 25
