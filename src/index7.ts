@@ -94,7 +94,7 @@ interface ProductType {
   offer?: boolean;
 }
 
-class Product implements ProductType {
+class Product2 implements ProductType {
   private id2: string = String(Math.random() * 1000);
 
   constructor(
@@ -106,4 +106,4 @@ class Product implements ProductType {
   getId = () => this.id2;
 }
 
-const product1 = new Product("Macbook", 2000, 20);
+const product1 = new Product2("Macbook", 2000, 20);
